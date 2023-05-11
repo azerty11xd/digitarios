@@ -15,25 +15,26 @@ function Herosection() {
           get in touch
         </Button>{' '}
       </div>
-      <div>
+      <div style={{overflow:"hidden"}}>
         <Row
-          xs='auto'
-          sm='auto'
-          md='auto'
-          className='justify-content-center'
-          style={{ margin: '0px', marginTop: '150px' }}
+          xs='4'
+          sm='4'
+          md='4'
+          className=''
+          style={{ margin: '0px',maxWidth: '100%',minWidth:"1800px"  }}
         >
           {images.map((image, index) => (
             <Col key={index} className='d-flex justify-content-center '>
               <div
                 className={`image-container ${index % 2 === 0 ? 'up' : 'down'}`}
               >
-                <Image
-                  style={{ borderRadius: '15px', margin: '50px' }}
+                <img
+                  style={{ borderRadius: '15px',minWidth:"400px",marginTop:"250px" }}
                   src={image.src}
                   alt={image.alt}
-                  width={350}
-                  height={500}
+                  className='img-fluid'
+                  width={300}
+                  height={450}
                 />
               </div>
             </Col>

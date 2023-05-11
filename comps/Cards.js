@@ -1,5 +1,7 @@
 import { Row, Col, Card, CardBody, CardTitle, CardText } from 'reactstrap'
 import mycards from '../cards.json'
+import NextLink from 'next/link'
+
 import Image from 'next/image'
 import Link from 'next/link'
 function Cards() {
@@ -8,14 +10,14 @@ function Cards() {
       <h2 className='text-center title '>
         we are the best choice for your Digital Marketing
       </h2>
-      <Row xs='1' sm='2' md='3' className='firstCardsRow mx-auto mt-5'>
+      <Row xs='4' sm='4' md='4' className='firstCardsRow mx-auto mt-5'>
         {mycards.map((card, index) => (
           <Col
             key={index}
             className='mb-4  d-flex align-items-stretch justify-content-center'
           >
             <Card className='first-cards'>
-              <Image
+              <img
                 className='img-card'
                 src={card.imgSrc}
                 alt={card.title}
@@ -26,9 +28,9 @@ function Cards() {
               <CardBody className='cardBody'>
                 <h3>{card.title}</h3>
                 <p className='firstCardText'>{card.text}</p>
-                <Link className='align-self-end' href={`${card.link}`}>
-                  learn more
-                </Link>
+                <NextLink className='align-self-end test ' href={`${card.link}`}>
+                  <a className='cardLink'>learn more</a>
+                </NextLink>
               </CardBody>
             </Card>
           </Col>

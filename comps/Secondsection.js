@@ -6,8 +6,8 @@ function Secondsection() {
       <div className='marginWithPaddingS2'>
         <Row className='py-5 p-0 '>
           <Col className='col-12 col-lg-6 p-0   d-flex justify-content-center    '>
-            <Container style={{}}>
-              <h2 className='s2H2'>
+            <Container >
+              <h2 className='s2H2 '>
                 by the numbers <br></br> <span className='s2h2Span'>92%</span>
               </h2>
               <h2 className='s2H2'>Retention rate</h2>

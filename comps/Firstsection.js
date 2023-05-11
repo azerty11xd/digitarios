@@ -12,8 +12,162 @@ import {
 function Firstsection() {
   return (
     <div className='container-fluid  innerCard '>
+      <div className='innerCardS1'> <Row>
+          <Col className='col-12 col-xl-6 firstSEctionFirstCol'>    
+              <div className='container-fluid upperSection'>
+              <p className='display-2 display700' > 700+ <br/> <span className='branndsOnBoard'>brands already onboard</span> </p>
+              </div>
+          </Col> 
+          < Col className='col-12 col-xl-6 icons'>
+        
+        
+           <Row className=' d-flex justify-content-around my-3'   >
+  
+           <img 
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+            
+           <img
+             
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+              <img
+            
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+           </Row>
+           <Row className=' d-flex justify-content-around my-3'   >
+  
+           <img 
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+            
+           <img
+             
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+              <img
+            
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+           </Row>
+           <Row className=' d-flex justify-content-around my-3'   >
+  
+           <img 
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+                   <img
+          
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+              
+            />
+            
+           <img
+             
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+              <img
+            
+              src='/icon.png'
+              className='img-fluid img  '
+              alt='image'
+              width={60}
+              height={60}
+            />
+           </Row>
+          </Col>
+</Row></div>
+     
+ 
       <div className='marginWithPadding'>
-        <Row>
+        <Row className='firstSectionTextRow'  >
           <Col className='col-12 col-xl-6   d-flex justify-content-center    '>
             <img
               src='/test.png'
@@ -93,6 +247,7 @@ function Firstsection() {
                   </p>
                 </div>
               </div>
+              <div className='d-flex'>
               <Button className=' customButton'>
                 <span>send me a proposal</span>
                 <img
@@ -103,6 +258,7 @@ function Firstsection() {
                   height={30}
                 />
               </Button>{' '}
+              </div>
             </div>
           </Col>
         </Row>
@@ -131,7 +287,7 @@ function Firstsection() {
             </Card>
           </Col>
           <Col className='col-12 col-lg-6 p-3'>
-            <Card className='second-section-card'>
+            <Card className='second-section-card card2'>
               <div className='card-img-container'>
                 <img
                   className='rounded '

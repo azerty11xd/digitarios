@@ -16,17 +16,23 @@ a {
 }
 
 .hero-section {
-  /*margin-left: 300px;*/
+  margin-left: 10vw;
   margin-top: 100px;
 }
 .up {
   position: relative;
-  top: 100px;
+  top: -100px;
 }
 
 .down {
   position: relative;
 }
+
+.image-container{
+/* add logic for mida break points*/
+}
+
+
 .middle-section-container {
   background-color: aqua;
   position: relative;
@@ -71,6 +77,7 @@ a {
 .second-section-card {
   background-color: transparent !important;
   border: 0px !important;
+  margin: 0px 100px;
 }
 .h2-title {
   font-size: 50px !important;
@@ -80,8 +87,9 @@ a {
   padding: 7px !important;
 
   width: 60px !important;
-
-  margin-left: 15px !important;
+position: relative;
+top: -50px;
+  
   z-index: 10 !important;
   border: 1px solid #9e9ea75e !important;
   border-radius: 10px !important;
@@ -95,6 +103,7 @@ a {
   border: none !important;
 
   max-width: 400px !important;
+  margin: 20px 0px;
 }
 
 .firstCardsRow {
@@ -112,7 +121,7 @@ a {
 }
 
 a {
-  color: #5134fe !important;
+ /* color: #5134fe !important;*/
   font-weight: 500;
   font-size: 1.2rem;
   align-self: flex-end !important;
@@ -123,11 +132,12 @@ a {
 }
 .innerCard {
   padding: 0px 17vw !important;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .sectionOneTitle {
   font-size: 3rem !important;
   font-weight: bold !important;
+  padding: 0px 10px;
 }
 
 .customButton {
@@ -138,21 +148,22 @@ a {
   border-radius: 10px !important;
 }
 .firstSectionCards {
-  margin-left: 15px !important;
   margin-top: 80px !important;
 }
 .card-body {
   padding: 0px !important;
 }
 .marginWithPadding {
+  position: relative;
   background-color: #f0f0f0;
   padding-bottom: 100px !important;
   border-radius: 25px;
+  z-index: 10!important;
 }
 .marginWithPaddingS2 {
   padding-bottom: 100px !important;
   border-radius: 25px;
-  margin-top: 100px;
+
 }
 .marginWithPaddingS3 {
   padding-bottom: 100px !important;
@@ -165,9 +176,10 @@ a {
   font-size: 2.5rem;
 }
 .s2h2Span {
-  font-size: 15vw;
+  font-size: 11vw;
 }
 .S2Text {
+margin-top: 10vw;
   color: #878787;
 }
 
@@ -212,4 +224,97 @@ a {
 }
 .allCards {
   margin-top: 200px !important;
+}
+.test>a.cardLink{
+  color: black !important;
+}
+
+footer{
+  background-color: #151515;
+}
+li{
+  color: white;
+  list-style: none;
+  padding: 10px;
+}
+h5{ color: white;}
+.firstRowFooter{
+ padding: 50px 150px ;
+  padding-top: 100px;
+}
+.footerText {
+color:white !important;
+}
+.lastLineFooter{
+  padding: 10px 50px !important;
+  padding-bottom: 20px!important;
+}
+.firstSectionTextRow{
+  padding: 50px 10px;
+
+}
+
+.display700{
+font-size: 10rem!important;
+font-weight: 600!important;
+
+}
+.branndsOnBoard{
+  font-size: 2.2rem!important;
+position: relative;
+top: -100px !important;
+}
+.innerCard{
+  padding:0px 8vw !important;
+
+
+}
+.firstSEctionFirstCol{
+
+  position: relative;
+  bottom: -80px;
+}
+.innerCardS1{
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  position: relative;
+  padding-bottom: 50px;
+  top: 30px;
+}
+.img-fluid{
+padding: 10px 0px!important;
+}
+.upperSection{
+  padding-left: 5vw !important;
+}
+.card2{
+  position: relative;
+  left: 20px;
+}
+.icons{
+  position: relative;
+  top:80px;
+}
+.footerLinks{
+  width: 100%;
+}
+@media only screen and (max-width: 1199px) {
+  .customButton{
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+.s2H2 {
+ 
+
+  text-align: center;
+
+}
+
+.icons{
+  top:0px;
+}
+.card2{
+  left: 0px;
+}
 }

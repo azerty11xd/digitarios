@@ -41,7 +41,7 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: red;
+
   border-radius: 15px;
   height: 700px;
 }
@@ -53,35 +53,163 @@ a {
   display: inline-block;
   margin: 30px;
 }
-.vertical-progress-bar {
-  height: 100px !important;
-  width: 200px;
-  transform: rotate(-90deg);
-}
-.img-fluid.rounded-more{
-  border-radius: 15px !important;
 
-}
-.test{
+.test {
   background-color: #f0f0f0;
   border-radius: 20px;
-
- width: 90vw!important;
-
-
 }
 
-.container-test{
+.container-test {
   background-color: aqua !important;
 
-  width: 80vw!important;
-
+  width: 80vw !important;
 }
-.img{
- 
+.img {
   border-radius: 40px !important;
-  padding: 20px!important;
-  width: 500px!important;
+  padding: 20px !important;
+}
+.second-section-card {
+  background-color: transparent !important;
+  border: 0px !important;
+}
+.h2-title {
+  font-size: 50px !important;
+}
 
- 
+.img-card {
+  padding: 7px !important;
+
+  width: 60px !important;
+
+  margin-left: 15px !important;
+  z-index: 10 !important;
+  border: 1px solid #9e9ea75e !important;
+  border-radius: 10px !important;
+  min-width: 10% !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: auto !important;
+}
+
+.first-cards {
+  border: none !important;
+
+  max-width: 400px !important;
+}
+
+.firstCardsRow {
+  max-width: 1300px;
+}
+.firstCardText {
+  margin-top: 20px !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #7b7b7b;
+}
+
+.cardBody {
+  margin-top: 25px !important;
+}
+
+a {
+  color: #5134fe !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  align-self: flex-end !important;
+}
+.title {
+  margin-top: 200px !important;
+  margin-bottom: 100px !important;
+}
+.innerCard {
+  padding: 0px 17vw !important;
+  margin-top: 200px;
+}
+.sectionOneTitle {
+  font-size: 3rem !important;
+  font-weight: bold !important;
+}
+
+.customButton {
+  background-color: #5134fe !important;
+  border: none !important;
+  margin-top: 55px;
+  margin-left: 10px;
+  border-radius: 10px !important;
+}
+.firstSectionCards {
+  margin-left: 15px !important;
+  margin-top: 80px !important;
+}
+.card-body {
+  padding: 0px !important;
+}
+.marginWithPadding {
+  background-color: #f0f0f0;
+  padding-bottom: 100px !important;
+  border-radius: 25px;
+}
+.marginWithPaddingS2 {
+  padding-bottom: 100px !important;
+  border-radius: 25px;
+  margin-top: 100px;
+}
+.marginWithPaddingS3 {
+  padding-bottom: 100px !important;
+}
+.innerCard3 {
+  padding: 0px 17vw !important;
+  margin-top: 50px;
+}
+.s2H2 {
+  font-size: 2.5rem;
+}
+.s2h2Span {
+  font-size: 15vw;
+}
+.S2Text {
+  color: #878787;
+}
+
+.vertical-progress {
+  rotate: 180deg;
+  width: 100px;
+  height: 420px;
+  margin: 0 10px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 15px 15px;
+  position: relative;
+  top: 60px;
+  overflow: hidden;
+}
+
+.vertical-progress-bar {
+  position: absolute;
+  border-radius: 0px 0px 15px 15px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007bff;
+}
+
+.allProgBars {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-progress-bar-1 {
+  background-color: #f5dbcc;
+}
+.custom-progress-bar-2 {
+  background-color: #c3ebed;
+}
+.custom-progress-bar-3 {
+  background-color: #5134ff;
+}
+.custom-progress-bar-4 {
+  background-color: #c7c7c7;
+}
+.allCards {
+  margin-top: 200px !important;
 }

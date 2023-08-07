@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Header style={{ zIndex: 1000 }} />
+        <Header />
         {children}
       </body>
     </html>

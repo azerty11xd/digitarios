@@ -27,10 +27,10 @@ function footer() {
                     <a href='home.html'>Home</a>
                   </li>
                   <li>
-                    <a href='service.html'>Service</a>
+                    <a href='service'>Service</a>
                   </li>
                   <li>
-                    <a href='contact.html'>Contact</a>
+                    <a href='contact'>Contact</a>
                   </li>
                 </ul>
               </div>

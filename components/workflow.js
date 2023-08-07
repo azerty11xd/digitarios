@@ -160,7 +160,7 @@ function workflow() {
                   </h2>
                   <div className='btn_wrapper'>
                     <a
-                      href='contact.html'
+                      href='contact'
                       className='wc-btn-black btn-hover btn-item'
                     >
                       <span></span>Contact <br />

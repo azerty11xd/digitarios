@@ -6,7 +6,7 @@ function offcanvas() {
       <div className='offcanvas__body'>
         <div className='offcanvas__left'>
           <div className='offcanvas__logo'>
-            <a href='index.html'>
+            <a href='/'>
               <img
                 src='/imgs/logo/site-logo-white-2.png'
                 alt='Offcanvas Logo'
@@ -22,13 +22,13 @@ function offcanvas() {
             <nav className='offcanvas__menu'>
               <ul className='menu-anim'>
                 <li>
-                  <a href='index.html'>Home</a>
+                  <a href='/'>Home</a>
                 </li>
                 <li>
-                  <a href='service.html'>Service</a>
+                  <a href='service'>Service</a>
                 </li>
                 <li>
-                  <a href='contact.html'>contact</a>
+                  <a href='contact'>contact</a>
                 </li>
               </ul>
             </nav>

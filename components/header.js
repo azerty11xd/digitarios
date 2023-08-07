@@ -1,28 +1,28 @@
 'use client'
 import React from 'react'
-
+import dynamic from 'next/dynamic'
 function header() {
   return (
     <header className='header__area-3'>
       <div className='header__inner-3'>
         <div className='header__logo-2'>
-          <a href='index.html' className='logo-dark'>
+          <a href='/' className='logo-dark'>
             <img src='/imgs/logo/logo-black.png' alt='Site Logo' />
           </a>
-          <a href='index.html' className='logo-light'>
+          <a href='/' className='logo-light'>
             <img src='/imgs/logo/site-logo-white-2.png' alt='Site Logo' />
           </a>
         </div>
         <div className='header__nav-2'>
           <ul className='main-menu-3 menu-anim'>
             <li className='has-megamenu'>
-              <a href='#'>home</a>
+              <a href='/'>home</a>
             </li>
             <li>
-              <a href='service.html'>services</a>
+              <a href='service'>services</a>
             </li>
             <li>
-              <a href='contact.html'>Contact</a>
+              <a href='contact'>Contact</a>
             </li>
           </ul>
         </div>
@@ -35,5 +35,6 @@ function header() {
     </header>
   )
 }
-
 export default header
+
+//export default dynamic(() => Promise.resolve(header), { ssr: true })

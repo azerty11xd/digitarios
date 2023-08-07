@@ -1,6 +1,16 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import Header from '../../components/header'
+import './styles/master.scss'
+import './styles/all.min.css'
+import './styles/bootstrap.min.css'
+import React from 'react'
+import './styles/locomotive-scroll.min.css'
+import './styles/master-dist.css'
+//import './styles/master.css.map'
+import './styles/meanmenu.min.css'
+import './styles/progressbar.css'
+import './styles/swiper-bundle.min.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -10,8 +20,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='en'>
+      <body className={inter.className}>
+        <Header style={{ zIndex: 1000 }} />
+        {children}
+      </body>
     </html>
   )
 }

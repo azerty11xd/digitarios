@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <ClientComponent />
-      <Header />
+
       <Offcanvas />
       <div className='cursor1'></div>
       <div className='cursor2'></div>
